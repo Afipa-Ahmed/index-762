@@ -1,0 +1,380 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Epilogue", sans-serif;
+
+}
+/* nav_star */
+
+.container{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 15px;
+   
+}
+.nav-bar .logo a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.nav-bar .nav-item ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+.nav-bar .nav-item ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+/* nav_end */
+/* main_section start */
+
+.main-section{
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    justify-content: space-between;
+    padding: 70px;
+    
+}
+.main-section .text{
+    
+    padding: 10px 0px;
+}
+.main-section .text p{
+    font-size: 20px;
+    line-height: 100px;
+}
+.main-section .text h1{
+    
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 100px;
+}
+.main-section .text span{
+    font-size: 15px;
+    line-height: 100px;
+}
+.main-section .img{
+    max-height: 425px;
+    max-width: 495px;
+    padding: 10px 20px;
+}
+
+
+/* main_section end */
+
+/* logo_section star */
+
+.logos{
+    padding: 50px 70px ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    border-top: 2px solid #d7d5d5;
+    border-bottom: 2px solid #d7d5d5;
+    align-items: center;
+}
+.logos a:hover{
+    box-shadow: 5px 10px 20px rgb(186, 186, 248);
+}
+
+/* logo_section end */
+
+
+/* card-section_1 start */
+
+.card-section-1{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    padding: 140px 80px;
+    text-align: center;
+}
+.card-section-1 img{
+    height: 150px;
+    width: 150px;
+}
+.card-section-1 .card-1{
+    padding: 10px 40px;
+}
+.card-section-1 h3{
+    font-size: 27px;
+    line-height: 42px;
+    padding: 15px;
+    font-weight: 500;
+}
+.card-section-1 p{
+    font-size: 15px;
+    line-height: 24px;
+    color: #2D2D2D;
+    padding-top: 15px;
+}
+.card-section-1 .card-1:hover{
+    box-shadow: 5px 10px 20px rgb(186, 186, 248);
+    border-radius: 10px;
+}
+
+/* card-section_1 end */
+
+/* card_section_2 start */
+
+.card-text{
+    padding: 40px 70px;
+
+}
+.card-text .text h4{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    padding: 30px 0px;
+}
+.card-text .card_section_2{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 50px;
+}
+.card-text .card_section_2 img{
+    height: 315px;
+    width: 315px;
+}
+.card-text .card_section_2 p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    padding: 15px 0px;
+}
+.card-text .card_section_2 span{
+    color: #2D2D2D;
+    font-size: 15px;
+    line-height: 24px;
+}
+.card-text .card_section_2 .card-2:hover{
+    box-shadow: 10px 10px 20px rgb(186, 186, 248);
+    border-radius: 15px;
+}
+
+/* card_section_2 end */
+
+
+/* card-section-3 start */
+
+.card-section-3{
+    padding: 90px 70px;
+}
+.card-section-3 h5{
+    text-align: center;
+    padding: 50px 0px;
+    font-size: 32px;
+    font-weight: 500;
+
+}
+.card-section-3 .card-section{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 80px;
+}
+.card-section-3 .card-3{
+    padding: 50px 30px;
+    border: 1px solid rgba(255, 210, 133, 1);
+    background-color: #faf2e5;
+}
+.card-section-3 .card-3 p{
+    color: #2D2D2D;
+    line-height: 27px;
+    
+}
+.card-section-3 .card-3 .child{
+    display: flex;
+    gap: 25px;
+    padding-top: 50px;
+}
+.card-section-3 .card-3 .child .child-1{
+    height: 52px;
+    width: 52px;
+
+    border-radius: 50% ;
+    border: 1px solid #2D2D2D;
+}
+.card-section-3 .card-3 .child .child-2{
+    font-size: 14px;
+    line-height: 27px;
+    color: #2D2D2D;
+}
+.card-section-3 .card-3:hover{
+    box-shadow: 5px 10px 20px #fce0b6;
+}
+
+
+/* card-section-3 end */
+
+/* text-form section start */
+
+.text-form{
+    padding: 100px 70px;
+    border-top: 2px solid #d7d5d5;
+    display: grid;
+    grid-template-columns: 3.5fr 3.5fr;
+    justify-content: space-between;
+}
+.text-form .text{
+    padding-bottom: 150px;
+    padding-right: 200px;
+}
+.text-form .text p{
+    font-size: 26px;
+    line-height: 42px;
+    font-weight: 600;
+    padding-bottom: 25px;
+    color: #2D2D2D;
+
+}
+.text-form .text span{
+    font-size: 15px;
+    color: #2D2D2D;
+    line-height: 22px;
+   
+}
+.text-form .text .icons{
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+    padding-top: 50px;
+    color: #2D2D2D;
+
+}
+.text-form{
+    /* background-color: #F3F3F3; */
+}
+.text-form input[type=text]{
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: #F3F3F3;
+    padding: 30px;
+    margin: 10px 0px;
+}
+.text-form input[type=email]{
+    width: 100%;
+    height: 10px;
+    border: none;
+    background-color: #F3F3F3;
+    padding: 30px;
+    margin: 10px 0px;
+
+}
+#area{
+    height: 200px;
+    width: 100%;
+    padding: 30px ;
+    background-color: #F3F3F3;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+.text-form .form a{
+    text-decoration: none;
+    color: white;
+    background-color: #2D2D2D;
+    padding: 30px 60px;
+    
+}
+.text-form .form a:hover{
+    color: #2D2D2D;
+    background-color: #F3F3F3;
+}
+
+/* text-form section end */
+
+
+
+
+
+@media (max-width: 576px){
+    nav{
+        display: none;
+    }
+    .container{
+        max-width: 575px;
+        padding: 20px 30px;
+    }
+    .main-section{
+        grid-template-columns: 1fr;
+        /* padding: 20px 0px; */
+    }
+    .main-section .text {
+       
+        text-align: center;
+    }
+    .main-section .text p {
+        font-size: 25px;
+       
+    }
+    .main-section .text h1 {
+        font-size: 70px;
+       
+    }
+    .main-section .text span {
+       
+        line-height: 100px;
+    }
+    .main-section .img {
+        width: 100%;
+        padding: 0px;
+    }
+    .logos{
+        padding: 50px 60px;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+      
+    }
+    .logo-1 , .logo-2 , .logo-3, .logo-4{
+        display: flex;
+        justify-content: center;
+    }
+    .logo-5 {
+        display: flex;
+        justify-content: center;
+        grid-column: 1 / span 2;
+    }
+    .card-section-1 {
+       gap: 50px;
+        grid-template-columns: 1fr;
+        padding: 80px 0px;
+        
+    }
+    .card-section-1 img{
+        width: 100%;
+    }
+    .card-text {
+        padding: 40px 0px;
+    }
+    .card-text .card_section_2 {
+        grid-template-columns: 2fr;
+    }
+    .card-section-3 .card-section {
+ 
+        grid-template-columns: 1fr;
+      
+    }
+    .card-section-3 {
+        padding: 90px 0px;
+    }
+    .text-form {
+        padding: 100px 0px;
+        grid-template-columns: 1fr;
+    }
+    .text-form .text {
+        padding-bottom: 50px;
+      
+    }
+    .text-form .text {
+        padding-bottom: 50px;
+        padding-right: 0px;
+        text-align: center;
+    }
+}
